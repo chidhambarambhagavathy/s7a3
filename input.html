@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS input validation</title>
+	<style>
+		input {
+			position: absolute;
+			width: 250px;
+			top: 10%;
+			left: 5%;
+			height: 25px;
+		}
+	    input[readonly] {
+	       background-color: red;
+	    }
+
+	</style>
+</head>
+<body>
+	<form name="formex">
+		<input id="myinput" type="text" onkeypress="return isNumberKey(event)" name="numberinput">
+	</form>
+	<script type="text/javascript" src="input.js"></script>
+</body>
+</html>
